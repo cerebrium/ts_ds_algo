@@ -1,11 +1,10 @@
-import { Que } from "./linked_list";
+import { contains_node, validate_b_tree, validate_invalid_tree } from "./Btree";
+import { test_path_finder } from "./MazePath";
 
-const que = new Que();
-for (let i = 0; i < 10; i++) {
-  que.push(i);
-}
+// dem_r_buf();
+// test_path_finder();
+console.log("contains 25: ", contains_node(25));
+console.log("contains 26: ", contains_node(26));
 
-console.log("what is the que: ", que);
-while (que.head) {
-  console.log("who is next: ", que.pop());
-}
+console.log("is valid tree: ", validate_b_tree());
+console.log("is invalid tree: ", validate_invalid_tree());
