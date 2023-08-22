@@ -2,9 +2,9 @@ import { BTree } from "./ds";
 
 export function contains_node(target: number) {
   const b_class = new BTree();
-  const b_tree = b_class.create_valid_b_tree();
+  b_class.create_valid_b_tree();
 
-  return b_class.depth_first_find(b_tree, target);
+  return b_class.find(target);
 }
 
 export function validate_b_tree() {
