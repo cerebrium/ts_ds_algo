@@ -1,1 +1,1 @@
-# ts_ds_algo
+Typescript Data Structures and Algorithms

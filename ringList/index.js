@@ -42,4 +42,3 @@ function dem_r_buf() {
     }
 }
 exports.dem_r_buf = dem_r_buf;
-function hello_world() { }
